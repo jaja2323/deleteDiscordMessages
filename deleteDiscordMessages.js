@@ -201,7 +201,7 @@
                     [ 'min_id', minId ? toSnowflake(minId) : undefined ],
                     [ 'max_id', maxId ? toSnowflake(maxId) : undefined ],
                     [ 'sort_by', 'timestamp' ],
-                    [ 'sort_order', 'desc' ],
+                    [ 'sort_order', 'asc' ],
                     [ 'offset', offset ],
                     [ 'has', hasLink ? 'link' : undefined ],
                     [ 'has', hasFile ? 'file' : undefined ],
